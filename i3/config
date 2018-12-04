@@ -33,7 +33,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # lock screen
-bindsym $mod+Control+l exec /bin/lock
+bindsym $mod+Control+l exec ~/.config/i3/lock
 
 # kill focused window
 bindsym $mod+Shift+q kill
